@@ -15,6 +15,26 @@ https://templatemo.com/tm-512-moonlight
 	}
 }
 
+#contact h2 {
+	color: white;
+}
+
+.profile-links {
+	width: 2vw;
+	height: 2vw;
+	min-width: 25px;
+	min-height: 25px;
+	margin-right: 1vw;
+	margin-left: 1vw;
+	opacity: 1;
+	transition: 0.3s;
+}
+
+.profile-links:hover {
+	opacity: 0.65;
+	transform: scale(1.4);
+}
+
 img.skills-image {
 	height: 3vw;
 	max-width: 3vw;
@@ -22,12 +42,14 @@ img.skills-image {
 	min-height: 35px;
 }
 
-figure.skills-figure, div.skills-div {
+figure.skills-figure {
 	display: grid;
 	grid-template-columns: auto;
 	justify-content: center;
 	height: auto;
 	width: auto;
+	min-width: 50px;
+	min-height: 50px;
 	margin: 5%;
 }
 
@@ -761,7 +783,7 @@ nav a:hover::before {
 	text-align: center;
 	font-size: 13px;
 	color: #fff;
-	margin-bottom: 20px;
+	margin-bottom: 2%;
 }
 
 .footer .content p a {
