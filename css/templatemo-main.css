@@ -26,6 +26,8 @@ figure.skills-figure {
 	justify-self: center;
 	margin: 10px;
 	margin-bottom: 5%;
+	height: auto;
+	width: auto;
 }
 
 .skills-container a {
@@ -43,12 +45,14 @@ figure.skills-figure {
 figcaption {
 	color: white;
 	text-align: center;
+	align-self: center;
+	justify-self: center;
 	font-size: 120%;
 }
 
 .skills-container {
 	display: grid;
-	grid-template-columns: auto auto auto;
+	grid-template-columns: auto auto auto auto;
 }
 
 .seq-preloader {
