@@ -22,12 +22,13 @@ img.skills-image {
 	min-height: 35px;
 }
 
-figure.skills-figure {
-	justify-self: center;
-	margin: 10px;
-	margin-bottom: 5%;
+figure.skills-figure, div.skills-div {
+	display: grid;
+	grid-template-columns: auto;
+	justify-content: center;
 	height: auto;
 	width: auto;
+	margin: 5%;
 }
 
 .skills-container a {
@@ -42,7 +43,7 @@ figure.skills-figure {
 	justify-content: center;
 }
 
-figcaption {
+figcaption, .figure-caption {
 	color: white;
 	text-align: center;
 	align-self: center;
@@ -52,7 +53,7 @@ figcaption {
 
 .skills-container {
 	display: grid;
-	grid-template-columns: auto auto auto auto;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .seq-preloader {
