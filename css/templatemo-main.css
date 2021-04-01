@@ -25,11 +25,25 @@ img.skills-image {
 figure.skills-figure {
 	justify-self: center;
 	margin: 10px;
+	margin-bottom: 5%;
+}
+
+.skills-container a {
+	justify-self: center;
+	align-self: center;
+}
+
+#grid-btn {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
 }
 
 figcaption {
 	color: white;
 	text-align: center;
+	font-size: 120%;
 }
 
 .skills-container {
